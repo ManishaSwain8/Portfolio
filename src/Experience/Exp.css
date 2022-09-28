@@ -1,0 +1,25 @@
+.skill {
+  padding: 0 0 50px 0;
+  position: relative;
+  background-color: rgb(8.2, 8.2, 8.2, 0.8);
+  border-radius: 64px;
+  text-align: center;
+  padding: 40px 60px;
+  margin-top: 60px;
+  width: 75%;
+
+  margin-left: 12%;
+  box-shadow: 0 0 1px #fff, 0 0 8px #fff, -10px 0 10px #f0f, 0 0 8px #0ba9ca,
+    0 0 20px #0ba9ca, 0 0 16px #0ba9ca, 0 0 20px #0ba9ca;
+  -webkit-animation: blink 0.7s infinite alternate;
+  animation: blink 0.7s infinite alternate;
+}
+.ok {
+  display: flex;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  overflow-y: scroll;
+}
+.ok::-webkit-scrollbar {
+  display: none;
+}

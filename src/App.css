@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,11 @@
   to {
     transform: rotate(360deg);
   }
+} */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 75px;
 }
+/* .para {
+  background-image: url("../assets/img1.jpg");
+} */
